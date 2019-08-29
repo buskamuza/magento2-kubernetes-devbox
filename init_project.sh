@@ -2,7 +2,7 @@
 
 set -e
 
-devbox_dir=$PWD
+devbox_dir=$(cd `dirname $0` && pwd)
 
 source "${devbox_dir}/scripts/functions.sh"
 resetNestingLevel
